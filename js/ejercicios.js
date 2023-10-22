@@ -1,5 +1,5 @@
 //ejercicio 1
-
+/*
 document.write("**ejercicio 1");
 
 alert("un mensaje");
@@ -81,7 +81,48 @@ if(num8%2===0){
 
 document.write("<br><br>**ejercicio 9<br>");
 
+let cadena = prompt("ejercicio 9/Escribir texto");
 
+let cantCaracteres = parseInt(cadena.length);
+let cont = 0;
+
+document.write("<br>Vocales del texto ingresado: <br>");
+while(cont<cantCaracteres){
+    if(cadena.charAt(cont)=="a" ||
+    cadena.charAt(cont)=="e" ||
+    cadena.charAt(cont)=="i" || 
+    cadena.charAt(cont)=="o" || 
+    cadena.charAt(cont)=="u"){
+        document.write(cadena.charAt(cont));
+    }
+    cont++
+}
 
 //ejercicio 10
+
+document.write("<br><br>**ejercicio 10<br>");
+
+let number = parseInt(prompt("ejercicio 10/Ingrese un numero"));
+let array = [2,3,5,7];
+let indice =0;
+while (indice<array.length){
+    if(number%parseInt(array[indice])===0){
+        document.write("<br>"+number + " es divisible en "+array[indice]);
+        break;
+    }
+    indice++;
+}
+
 //ejercicio 11
+
+document.write("<br><br>**ejercicio 11<br>");
+
+let number = parseInt(prompt("ejercicio 11/Ingrese un numero"));
+let array = [2,3,5,7];
+let indice =0;
+while (indice<array.length){
+    if(number%parseInt(array[indice])===0){
+        document.write("<br>"+number + " es divisible en "+array[indice]);
+    }
+    indice++;
+}*/
