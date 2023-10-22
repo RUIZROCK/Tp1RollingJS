@@ -1,3 +1,47 @@
+//ejercicios de la clase anterior
+
+
+document.write("ejercicio 1<br><br>");
+let numero1 = 15;
+let numero2 = 12;
+let suma = numero1+numero2;
+let resta = numero1-numero2;
+let producto = numero1*numero2;
+let division = numero1/numero2;
+let resto = numero1%numero2;
+
+
+document.write("suma, resta, producto, division, resto<br>");
+document.write(suma);
+document.write("<br>"+resta);
+document.write("<br>"+producto);
+document.write("<br>"+division);
+document.write("<br>"+resto);
+
+
+
+document.write("<br><br>ejercicio 2<br><br>");
+
+let nombre="sergio";
+let apellido = "ruiz";
+let nombreCompleto= nombre+" "+apellido;
+document.write(nombreCompleto);
+
+document.write("<br><br>ejercicio 3<br><br>");
+
+gradosCelsius =234;
+
+
+document.write(gradosCelsius+"<br><br>");
+
+gradosFahrenheit = (gradosCelsius * (9/5)) +32;
+
+document.write(gradosFahrenheit);
+
+
+
+
+
 //ejercicio 1
 /*
 document.write("**ejercicio 1");
